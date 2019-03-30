@@ -1,0 +1,78 @@
+/* You can add global styles to this file, and also import other style files */
+html,body{
+    padding:0;
+    margin:0;
+    transition: all 0.3s ease-in-out;
+    scroll-behavior: smooth;
+}
+
+
+@media (min-width: 1024px) {
+    #intro {
+      background-attachment: fixed;
+    }
+  
+    #about {
+      background-attachment: fixed;
+    }
+  
+    #subscribe {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 1199px) {
+    #header .container {
+      max-width: 100%;
+    }
+  
+    .nav-menu a {
+      padding: 8px 4px;
+    }
+  }
+
+  
+
+@media (max-width: 991px) {
+    #header {
+      background: rgba(6, 12, 34, 0.98);
+      height: 70px;
+      padding: 15px 0;
+      transition: all 0.5s;
+    }
+  
+    #nav-menu-container {
+      display: none;
+    }
+  
+    #mobile-nav-toggle {
+      display: inline;
+    }
+  
+    #intro .intro-container {
+      top: 70px;
+    }
+  
+    #intro h1 {
+      font-size: 34px !important;
+    }
+  
+    #intro p {
+      font-size: 16px;
+    }
+  
+    #schedule .nav-tabs a {
+      padding: 8px 60px;
+    }
+  }
+
+  .section-sub-title {
+    font-weight: 200;
+    font-size: 1.5em;
+    margin-top: 1.1em;
+    margin-bottom: 3em;
+  }
+
+  .container {
+    text-align: center;
+  }

@@ -1,0 +1,187 @@
+.sponsor > .container > .row:first-of-type { margin-bottom: 3em; }
+
+.action-btn-sponsor,
+.action-btn-pricing { margin-top: 3em; }
+
+.sponsor figure {
+  display: inline-block;
+  padding: 1em 2.5em 2.5em;
+}
+
+.sponsor img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all 0.3s ease-in-out;
+}
+
+.sponsor img:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.btm-margin {
+    margin-bottom: 4em;
+    margin-top: 5em
+}
+
+.btn-primary {
+    background: #ee0933 !important;
+    border: #ee0933;
+    height: 45px;
+}
+
+.btn-primary:hover {
+    background: #f5103a !important;
+    border: #f51c44 ;
+    cursor: pointer;
+}
+
+#sponsors {
+    min-height: 100vh;
+    padding-top: 60px;
+}
+
+/* Sponsorship packages */
+
+.card-row {
+  padding-top: 5em;
+}
+
+.price_box {
+  position: relative;
+  padding: 35px 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: #f0f2f6;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+.price_box .price_highlight {
+  background-color: #f50136;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 15px;
+  color: #fff;
+}
+.price_box .price_header h4 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.price_features { 
+  text-align: left;
+  color: #838383;
+  font-family: sans-serif;
+}
+.price_box .price_header h6 {
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #838383;
+  font-weight: 400;
+}
+.price_box .price_tag {
+  padding: 15px 0;
+  text-transform: capitalize;
+  color: #18181c;
+  font-size: 48px;
+  font-weight: 700;
+}
+.price_box .price_tag sup {
+  font-size: 24px;
+  font-weight: 400;
+  top: -15px;
+  left: -7px;
+  color: #838383;
+}
+.price_box .price_features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.price_box .price_features ul li {
+  padding: 7px;
+  font-size: 14px;
+  font-weight: 100;;
+}
+.price_box .price_footer {
+  margin-top: 30px;
+}
+
+
+.price_box.active {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+.badge-price {
+  /* width: 200px; */
+    height: 40px;
+    padding-top: 8px;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.bronze {
+  color: #cd7f32;
+}
+
+.bronze-bac {
+  background: #cd7f32;
+}
+
+.silver {
+  color: #a7a5a5;
+}
+
+.silver-bac {
+  background: #a7a5a5;
+}
+
+.gold {
+  color: 		#D4AF37;
+}
+
+.gold-bac {
+  background: 	#D4AF37;
+}
+
+.platinum {
+  color: #ee0933;
+}
+
+.platinum-bac {
+  background: #ee0933;
+}
+.sponsorship-sub-title{
+  font-weight: 200;
+}
+
+.sponsor-contact{
+  margin-top: 5em;
+}
+
+.cont-detail {
+  margin-bottom: 10em;
+}
+
+.sponsor-contact-detals {
+  padding-top: 10px;  
+}
+
+.sponsor-contact-detals h6{
+  font-weight: 400; 
+}
+
+.cont-detail i {
+  color: #ee0933;
+  font-size: 40px;
+}

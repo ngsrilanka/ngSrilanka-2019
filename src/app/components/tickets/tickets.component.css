@@ -1,0 +1,42 @@
+  .mb30 {
+    margin-bottom: 30px !important;
+  }
+  .btn-rounded {
+    border-radius: 50px;
+  }
+  .mt30 {
+    margin-top: 30px !important;
+  }
+  
+  section {
+      height: 60vh;
+  }
+
+  #buy-tickets{
+   padding-top: 60px;
+   position: relative;
+}
+
+.btn-primary {
+    background: #ee0933 !important;
+    border: #ee0933;
+}
+
+.btn-primary:hover {
+    background: #f5103a !important;
+    border: #f51c44 ;
+    cursor: pointer;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #tickets{
+      margin-top: 4em;
+  }
+}
+
+#contact {
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+}

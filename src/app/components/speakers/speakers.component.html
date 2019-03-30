@@ -1,0 +1,31 @@
+<section class="speaker section-spacing text-center" id="speakers">
+    <div class="container">
+      <header>
+        <div class="row">
+          <div class="col-md-12">
+              <h2>Speakers</h2>
+              <h3 class="section-sub-title">Experts who will be speaking at the event</h3>
+          </div>
+        </div>       
+      </header>
+      <div class="row">
+                <div class="col-sm-3 shrink-div" *ngFor="let speaker of speakers">
+                    <div class="item shrink"> 
+                        <div class="event-speaker">
+                          <figure> <img src="../../assets/images/speakers/{{speaker.imagePath}}" alt="event-speaker" data-no-retina>
+                            <figcaption>
+                              <h4>{{ speaker.name }}</h4>
+                              <p>{{ speaker.company}}</p>
+                              <ul class="social">
+                                <li><a href="https://twitter.com/{{ speaker.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://github.com/{{speaker.github}}" target="_blank"><i class="fa fa-github-alt"></i></a></li>
+                              </ul>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+        </div>
+        <div id="event-sponsors"></div>
+</section>

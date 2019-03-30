@@ -1,0 +1,27 @@
+.hero {
+    background-image: url(/assets/images/bg.jpg);
+    background-size: cover;
+    background-position: center center
+}
+
+.landing-page-content {
+    text-align: center;
+}
+
+h1#comingSoonText {
+    color: white;
+    font-size: 6rem;
+}
+
+.hero {
+    padding: 96px;
+    padding-bottom: 192px;
+}
+
+.logo-contatiner >  img {
+    width: 350px;
+}
+
+.logo-contatiner {
+    text-align: center;
+}

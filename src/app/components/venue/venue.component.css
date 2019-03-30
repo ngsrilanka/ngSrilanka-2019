@@ -1,0 +1,60 @@
+.venue {
+    background: url(../../../assets/images/venue-bg.jpg) center center no-repeat fixed;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+  }
+  
+  .venue::before { background: rgba(0, 0, 0, 0.5); }
+  
+  .venue h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 0;
+    color: #fff;
+  }
+  
+  .venue address { margin-bottom: 3em; }
+  
+  .venue address p {
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .venue address p:first-child { margin-bottom: 1px; }
+  
+  .venue address i {
+    padding-right: .3em;
+    font-size: 1.4em;
+  }
+  
+  .venue address .map-link {
+    font-size: 16px;
+    text-decoration: underline;
+    color: #fff;
+  }
+  
+  .map-link a { color: #fff; }
+   
+  #map-canvas {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 30em;
+    border-radius: 4px;
+  }
+  
+  #map-canvas img { max-width: none; }
+
+  .venue-sec{
+      background-color: rgb(200,200,200,0.5);
+      height: 250px;
+      margin-top: 25vh;
+  }
+
+  #tickets {
+    width: 100%;
+    height: 59px;;
+    position: absolute;
+    bottom: 0;
+  }

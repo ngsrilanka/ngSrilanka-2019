@@ -1,0 +1,27 @@
+.buy-tickets a {
+    color: #fff;
+    background: #f82249;
+    padding: 7px 22px;
+    border-radius: 50px;
+    border: 2px solid #f82249;
+    transition: all ease-in-out 0.3s;
+    font-weight: 500;
+    margin-left: 8px;
+    margin-top: 2px;
+    line-height: 1;
+    font-size: 13px;
+    position: absolute;
+  }
+  
+.buy-tickets a:hover {
+   text-decoration: unset;
+  }
+  
+.buy-tickets:hover a:before,
+.buy-tickets.menu-active a:before {
+    visibility: hidden;
+  }
+
+.bg-dark-blue {
+  background-color: #060c22;
+}

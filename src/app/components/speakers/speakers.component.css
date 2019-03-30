@@ -1,0 +1,119 @@
+  p {
+    font-weight: 300;
+    color: #888;
+  }
+  
+  
+  a {
+    color: #82b641;
+    transition: all 0.3s ease-in-out;
+  }
+   
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  ul,
+  li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .event-speaker figure img {
+    border-radius: 4px;
+    transition: all 1s ease;
+  }
+  
+  .nav>li>a { padding: 12px 16px; }
+  
+  .event-speaker h4 { margin: 24px 0 6px; }
+  
+  .event-speaker p { font-style: italic; }
+  
+  .event-speaker .social li a {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+  }
+  
+  .event-speaker .social li a:hover {
+    color: #fcfcfc;
+  }
+
+  .fa{
+      color: #f82249;
+  }
+  
+  .event-speaker .bttn {
+    position: absolute;
+    left: 50%;
+    top: 57%;
+    bottom: auto;
+    right: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .owl-wrapper-outer { margin-bottom: 1.5em; }
+  
+  .speaker-slider .item { 
+    margin: 3px; 
+    
+    }
+
+  img{
+    -webkit-transition: all 700ms ease;
+    transition: all 700ms ease;
+  }
+ 
+  .social li {
+    display: inline-block;
+    padding-right: .8em;
+  }
+  
+  .social li:last-child { padding-right: 0; }
+  
+  .social li a {
+    display: block;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.3em;
+  }
+  
+  .site-footer .social li a {
+    color: #8ec150;
+    background: transparent;
+    border: 1px solid #8ec150;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 50%;
+    font-size: 1.5em;
+  }
+  
+  .site-footer .social li a:hover {
+    background: #8ec150;
+    border: 1px solid #8ec150;
+    color: #fff;
+  }
+
+  img:hover{
+    -webkit-transform :scale(1.03);
+	transform: scale(1.03);
+  }
+	
+
+  #speakers{
+      min-height: 100vh;
+      padding-top: 60px;
+      position: relative;
+  }
+
+  #event-sponsors {
+    width: 100%;
+    height: 59px;
+    position: absolute;
+    bottom: 0;
+  }

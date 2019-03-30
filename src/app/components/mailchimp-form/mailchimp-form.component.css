@@ -1,0 +1,51 @@
+#subscribe input {
+    background: #fff;
+    color: #060c22;
+    border: 0;
+    outline: none;
+    margin: 10px;
+    padding: 9px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  #subscribe button {
+    border: 0;
+    padding: 9px 48px;
+    cursor: pointer;
+    background: #f82249;
+    color: #fff;
+    transition: all 0.3s ease;
+    outline: none;
+    font-size: 14px;
+    border-radius: 50px;
+  }
+  
+  #subscribe button:hover {
+    background: #e0072f;
+  }
+
+  h3.hero-text {
+    color: white;
+    margin: 24px 0;
+}
+
+#subscribe {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-device-width: 480px) {
+    
+  #subscribe{
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+    
+    h3.hero-text {
+        font-size: 1.4rem !important;
+    }   
+}
