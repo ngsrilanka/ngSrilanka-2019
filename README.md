@@ -1,2 +1,2 @@
 # ngSrilankaWeb
-Officual website of ngSrilanka
+Official website of ngSrilanka
