@@ -25,3 +25,9 @@
 .bg-dark-blue {
   background-color: #060c22;
 }
+
+@media only screen and (max-width: 650px)  {
+  nav {
+    visibility: hidden;
+  }
+}
