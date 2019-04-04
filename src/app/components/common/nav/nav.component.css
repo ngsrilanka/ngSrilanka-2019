@@ -26,7 +26,7 @@
   background-color: #060c22;
 }
 
-@media only screen and (max-width: 650px)  {
+@media only screen and (max-width: 767px)  {
   nav {
     visibility: hidden;
   }
