@@ -9,14 +9,17 @@
 }
 
 .sponsor img {
-  -webkit-filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; */
 }
 
 .sponsor img:hover {
-  -webkit-filter: grayscale(0);
-  filter: grayscale(0);
+  /* -webkit-filter: grayscale(0);
+  filter: grayscale(0); */
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all 0.3s ease-in-out;
 }
 
 .btm-margin {
