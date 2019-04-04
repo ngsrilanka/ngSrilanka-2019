@@ -185,3 +185,14 @@
   color: #ee0933;
   font-size: 40px;
 }
+
+#sponsors {
+  position: relative;
+}
+
+#location {
+  width: 100%;
+  height: 57px;
+  position: absolute;
+  bottom: 0;
+}
