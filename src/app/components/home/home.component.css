@@ -48,7 +48,7 @@
       position: absolute;
       left: 0;
       right: 0;
-      top: 4.2em;
+      top: 20%;
   }
 
 
@@ -57,15 +57,24 @@
     .container h1 {
         font-size: 30px;
     }
+ }
 
-    .content-middle {
-        top: 2.7em;
-    }
+ .button {
+    border: 0;
+    padding: 9px 48px;
+    cursor: pointer;
+    background: #f82249;
+    color: #fff;
+    transition: all 0.3s ease;
+    outline: none;
+    font-size: 14px;
+    border-radius: 50px;
+    margin-top: 10px
  }
 
 #about-event {
     width: 100%;
-    height: 59px;
+    height: 57px;
     position: absolute;
     bottom: 0;
 } 
