@@ -14,6 +14,19 @@ export class SpeakersComponent implements OnInit {
     new Speaker('Marta Wiśniewska', 'Cosmose','MartaW_PL','','martawisniewska.jpg' ),
     new Speaker('Nishu Goel', 'IBM','DcoustaWilson','nishugoel','nishugoel.jpeg' ),
     new Speaker('Pankaj Parkar', 'Synerzip','','','pankajparkar.jpg' ),
+    new Speaker('TBD', 'TBD','','','speaker-default.jpg' ),
+    new Speaker('TBD', 'TBD','','','speaker-default.jpg' ),
+    new Speaker('TBD', 'TBD','','','speaker-default.jpg' ),
+    new Speaker('TBD', 'TBD','','','speaker-default.jpg' ),
+    new Speaker('TBD', 'TBD','','','speaker-default.jpg' ),
+    new Speaker('TBD', 'TBD','','','speaker-default.jpg' ),
+    new Speaker('TBD', 'TBD','','','speaker-default.jpg' ),
+    new Speaker('TBD', 'TBD','','','speaker-default.jpg' ),
+    new Speaker('TBD', 'TBD','','','speaker-default.jpg' ),
+    new Speaker('TBD', 'TBD','','','speaker-default.jpg' ),
+    new Speaker('TBD', 'TBD','','','speaker-default.jpg' ),
+    new Speaker('TBD', 'TBD','','','speaker-default.jpg' ),
+    
   ]
   constructor() { }
 
