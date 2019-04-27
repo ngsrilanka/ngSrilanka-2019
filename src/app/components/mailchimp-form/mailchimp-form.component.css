@@ -6,8 +6,12 @@
     font-size: 14px;
     background: #fff;
     color: #060c22;
-    border: 0;
+    border: 1px solid rgb(197, 197, 197);
     outline: none;
+    margin: 10px 0;
+    padding: 9px 10px;
+    border-radius: 5px;
+    font-size: 16px;
   }
   
   #subscribe button {
@@ -18,9 +22,8 @@
     color: #fff;
     transition: all 0.3s ease;
     outline: none;
-    font-size: 14px;
-    border-radius: 50px;
-    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 5px;
   }
   
   #subscribe button:hover {
@@ -28,8 +31,8 @@
   }
 
   h3.hero-text {
-    color: white;
-    margin: 24px 0;
+    color: rgb(54, 54, 54);
+    margin: auto;
 }
 
 #subscribe {
