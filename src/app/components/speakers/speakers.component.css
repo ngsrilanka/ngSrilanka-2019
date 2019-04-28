@@ -103,12 +103,25 @@
     -webkit-transform :scale(1.03);
 	transform: scale(1.03);
   }
-	
+  
+  .speaker-title{
+    font-family: 'Hind', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #002569;
+  }
+  
+  .section-title-sub {
+    font-size: 25px;
+    font-weight: 200;
+  }
 
   #speakers{
       min-height: 100vh;
-      padding-top: 60px;
+      padding: 60px 0;
       position: relative;
+      background-color: #f9fafc;
   }
 
   #event-sponsors {
