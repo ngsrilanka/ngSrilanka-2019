@@ -7,14 +7,20 @@
 }
 
 .txt-title{
-    font-weight: 500;
+  font-family: 'Hind', sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #002569;
 }
 
 .cmb-title {
+  font-size: 30px;
   font-weight: 200 !important;
 }
 
 .txt-title-sub {
+  font-size: 25px;
   font-weight: 200;
 }
 
@@ -23,9 +29,8 @@
 }
 
 #about {
-    min-height: 100vh;
-    padding-top: 60px;
-    margin: 100px 0 0 0;
+    height: auto;
+    padding: 100px 0;
 }
 
 .mt30 {

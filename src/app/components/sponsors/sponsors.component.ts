@@ -32,4 +32,8 @@ export class SponsorsComponent implements OnInit {
     this.showpackages = true;
   }
 
+  hidePackages () {
+    this.showpackages = false;
+  }
+
 }
