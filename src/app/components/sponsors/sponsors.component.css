@@ -8,21 +8,11 @@
   padding: 1em 2.5em 2.5em;
 }
 
-.sponsor img {
-  /* -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  transition: all 0.3s ease-in-out; */
-}
-
 .sponsor img:hover {
-  /* -webkit-filter: grayscale(0);
-  filter: grayscale(0); */
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   transition: all 0.3s ease-in-out;
 }
-
-
 
 .btn-primary {
     background: #ee0933 !important;
@@ -54,8 +44,6 @@
   font-size: 25px;
   font-weight: 200;
 }
-
-/* Sponsorship packages */
 
 .card-row {
   padding-top: 5em;
@@ -137,11 +125,10 @@
 }
 
 .badge-price {
-  /* width: 200px; */
-    height: 40px;
-    padding-top: 8px;
-    font-size: 25px;
-    font-weight: 300;
+  height: 40px;
+  padding-top: 8px;
+  font-size: 25px;
+  font-weight: 300;
 }
 
 .bronze {
