@@ -1,3 +1,7 @@
+.venue {
+  position: relative;
+}
+
 .venue-bg {
     background: url(../../../assets/images/venue-bg.jpg) center center no-repeat fixed;
     background-size: cover;
