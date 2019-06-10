@@ -40,3 +40,20 @@
   position: absolute;
   bottom: 0;
 }
+
+.register-title {
+  font-family: 'Hind', sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #002569;
+  display: none;
+}
+
+.text-soon {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #a7a7a7;
+}

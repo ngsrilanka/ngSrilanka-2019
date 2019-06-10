@@ -17,10 +17,15 @@
   .venue address { margin-bottom: 3em; }
   
   .venue address p {
-    color: #fff;
-    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 25px;
   }
   
+  .address-icon {
+    font-size: 60px;
+  }
+
   .venue address p:first-child { margin-bottom: 1px; }
   
   .venue address i {
@@ -28,13 +33,20 @@
     font-size: 1.4em;
   }
   
-  .venue address .map-link {
-    font-size: 16px;
-    text-decoration: underline;
-    color: #fff;
+  .venue address a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #cacaca;
+    transition: ease-in-out 0.1s;
   }
-  
-  .map-link a { color: #fff; }
+
+  .venue address a:hover {
+    color: #f82249;
+  }
+
+  .event-details i {
+    color: #fc0230;
+  }
    
   #map-canvas {
     width: 100%;
@@ -46,15 +58,27 @@
   
   #map-canvas img { max-width: none; }
 
-  .venue-sec{
-      background-color: rgb(200,200,200,0.5);
-      height: 250px;
-      margin-top: 25vh;
-  }
 
   #tickets {
     width: 100%;
     height: 57px;;
     position: absolute;
     bottom: 0;
+  }
+  
+  .overlay {
+    background-image: linear-gradient(-144deg, #002B54 0%, #8d0b93 51%, #6200ff 100%, #8605ff 100%);
+    opacity: 0.8;
+  }
+
+  .event-details {
+    padding: 100px 0 80px 0;
+  }
+
+  .date-time {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 50px;
+    padding: 20px;
   }

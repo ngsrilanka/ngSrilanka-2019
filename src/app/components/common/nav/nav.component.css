@@ -1,45 +1,46 @@
-.buy-tickets a {
-    color: #fff;
-    background: #f82249;
-    padding: 7px 22px;
-    border-radius: 50px;
-    border: 2px solid #f82249;
-    transition: all ease-in-out 0.3s;
-    font-weight: 500;
-    margin-left: 8px;
-    margin-top: 2px;
-    line-height: 1;
-    font-size: 13px;
-    position: absolute;
-  }
+.buy-tickets {
+  background: #f82249;
+  padding: 10px 20px;
+  border: 2px solid #f82249; 
+  border-radius: 5px;
+  transition: all ease-in-out 0.3s;
+  line-height: 1;
+}
 
-.ticket-button {
-    background: #f82249;
-    color: white !important;
-    border-radius: 30px;
-    font-size: 14px;
-    line-height: 15px;
-    margin-left: 10px;
-    margin-top: 5px;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+.buy-tickets a {
+  color: #f7f7f7;
+  transition: all ease-in-out 0.3s;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.nav-item {
+  padding: 0 4%;
+}
+
+.nav-item a {
+  color: #111111;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav-item a:hover {
+  color: #f82249;
+}  
+  
+.buy-tickets:hover {
+  background-color: #db1439;
+  border: 2px solid #db1439; 
+  text-decoration: none;
 }
   
-.ticket-button:hover {
-   cursor: pointer;
-  }
-  
-/* .buy-tickets:hover a:before,
+.buy-tickets:hover a:before,
 .buy-tickets.menu-active a:before {
     visibility: hidden;
-  } */
+  }
 
 .bg-dark-blue {
-  background-color: #060c22;
-}
-
-@media only screen and (max-width: 767px)  {
-  nav {
-    visibility: hidden;
-  }
+  background-color: #f7f7f7;
+  border-bottom: 4px solid #002569;
 }

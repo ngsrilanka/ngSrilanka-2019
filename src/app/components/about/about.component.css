@@ -7,14 +7,20 @@
 }
 
 .txt-title{
-    font-weight: 500;
+  font-family: 'Hind', sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #002569;
 }
 
 .cmb-title {
+  font-size: 30px;
   font-weight: 200 !important;
 }
 
 .txt-title-sub {
+  font-size: 25px;
   font-weight: 200;
 }
 
@@ -23,8 +29,8 @@
 }
 
 #about {
-    min-height: 100vh;
-    padding-top: 60px;
+    height: auto;
+    padding: 100px 0;
 }
 
 .mt30 {
@@ -33,7 +39,7 @@
 
 .icon_box_one {
     background-color: #f0f2f6;
-    padding: 0;
+    padding: 25px 0;
     margin: 25px 0;
     position: relative;
     overflow: hidden;
@@ -41,7 +47,7 @@
             box-shadow: 0 0 0 rgba(0, 0, 0, 0.08);
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-    height: 290px;
+    height: 300px;
 }
   .icon_box_one i {
     margin-top: 10px;
@@ -57,7 +63,7 @@
   }
   .icon_box_one .content {
     margin-top: 0;
-    padding: 10px 25px 25px;
+    padding: 10px 25px;
   }
   .icon_box_one .content h4 {
     color: #18181c;

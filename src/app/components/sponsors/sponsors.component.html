@@ -1,9 +1,13 @@
 <section class="sponsor section-spacing text-center" id="sponsors" *ngIf="!showpackages">
     <div class="container">
-      <header>
-        <h2>Sponsors</h2>
-        <h3 class="section-sub-title">Meet our wonderful sponsors for this year's event</h3>
-      </header>
+      <div class="row">
+        <div class="col-md-12">
+            <p class="sponsor-title">Sponsors</p>
+        </div>
+        <div class="col-md-12">
+            <p class="sponsor-title-sub">Meet our wonderful sponsors for this year's event</p>
+        </div>
+      </div>
       <div class="row">
           <div class="col-sm-12"><p>Main Sponsor</p></div>
           <div class="col-md-12">
@@ -38,7 +42,8 @@
   <section id="sponsors" *ngIf="showpackages" [@fadeInOut] >
     <div class="container">
         <header>
-          <h2>Sponsorship Packages</h2>
+          <p class="sponsor-title">Sponsorship Packages</p>
+          <hr>
         </header>
     </div>
     <div class="container">
@@ -228,19 +233,15 @@
 
         <div class="row sponsor-contact">
             <div class="col-sm-12">
-                <h4>WOULD YOU LIKE TO SPONSOR US?</h4>
+                <p class="sponsor-sub-text">Would you like to sponsor us?</p>
             </div>
             <div class="col-sm-12">
-                <h5 class="sponsorship-sub-title">AWESOME! JUST DROP US A LINE!</h5>     
+                <p class="sponsorship-sub-title">AWESOME! JUST DROP US A LINE!</p>     
             </div>     
         </div>
-        <div class="row sponsor-contact-detals">
-                <div class="col-sm-12">
-                    <h6>Sajeetharan Sinnathurai</h6>
-                </div>
-        </div>
+        <hr>
         <div class="row cont-detail">
-            <div class="col-sm-6">
+            <div class="col-sm-4">
                 <div class="col-sm-12">
                     <i class="fa fa-phone" aria-hidden="true"></i>
                 </div>
@@ -248,15 +249,22 @@
                     <h6>(+94)77 330 4035</h6>
                 </div>
             </div>
-            <div class="col-sm-6">
-                    <div class="col-sm-12">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                    </div>
-                    <div class="col-sm-12">
-                        <h6>angularsrilanka@gmail.com</h6>
-                    </div>
+            <div class="col-sm-4 sponsor-contact-detals">
+                <h6>Sajeetharan Sinnathurai</h6>
+            </div>
+            <div class="col-sm-4">
+                <div class="col-sm-12">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
                 </div>
+                <div class="col-sm-12">
+                    <h6>angularsrilanka@gmail.com</h6>
+                </div>
+            </div>
+        </div>
+        <div class="row btm-margin">
+            <div class="col-sm-12">
+                <button class="btn btn-primary" (click)="hidePackages()"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+            </div>
         </div>
       </div>
-      <div id="location"></div>
   </section>
