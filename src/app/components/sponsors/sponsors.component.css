@@ -39,6 +39,7 @@
 #sponsors {
     height: auto;
     padding: 60px 0;
+    position: relative;
 }
 
 .sponsor-title{
@@ -219,4 +220,11 @@
   height: auto;
   padding: 100px 0;
   position: relative;
+}
+
+#location{
+  width: 100%;
+  height: 57px;;
+  position: absolute;
+  bottom: 0;
 }
