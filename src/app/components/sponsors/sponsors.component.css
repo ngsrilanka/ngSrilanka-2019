@@ -8,6 +8,10 @@
   padding: 1em 2.5em 2.5em;
 }
 
+img {
+  width: 150px;
+}
+
 .sponsor img:hover {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
