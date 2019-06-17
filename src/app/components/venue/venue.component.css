@@ -23,11 +23,11 @@
   .venue address p {
     color: #ffffff;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 1.3em;
   }
   
   .address-icon {
-    font-size: 60px;
+    font-size: 40px;
   }
 
   .venue address p:first-child { margin-bottom: 1px; }
@@ -83,8 +83,13 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     line-height: 1.2;
-    font-size: 50px;
+    font-size: 2em;
     padding: 20px;
+  }
+
+  .date-text span {
+    font-size: 15px;
+    vertical-align: text-top;
   }
 
   .venue-gallery-container {
