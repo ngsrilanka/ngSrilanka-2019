@@ -10,10 +10,11 @@ import { Speaker } from './speaker.model';
 export class SpeakersComponent implements OnInit {
 
   speakers = [
-    new Speaker('Dhananjay Kumar', 'Infragistics','Debug_mode','debugmodedotnet','dhananjaykumar.jpg', ),
+    // new Speaker('Dhananjay Kumar', 'Infragistics','Debug_mode','debugmodedotnet','dhananjaykumar.jpg', ),
     new Speaker('Nishu Goel', 'IBM','DcoustaWilson','nishugoel','nishugoel.jpeg' ),
     new Speaker('Pankaj Parkar', 'Synerzip','','','pankajparkar.jpg' ),
-    new Speaker('Sajeetharan Sinnathurai', 'Microsoft','kokkisajee','sajeetharan','sajeetharan.jpeg' ),
+    new Speaker('Anchal Bhandari', 'PTC','','','anchal.jpg' ),
+    new Speaker('Santosh Yadav', 'Deutsch','','','santoshyadav.jpg' ),
     new Speaker('TBD', 'TBD','','','speaker-default.jpg' ),
     new Speaker('TBD', 'TBD','','','speaker-default.jpg' ),
     new Speaker('TBD', 'TBD','','','speaker-default.jpg' ),
