@@ -15,7 +15,7 @@ export class SpeakersComponent implements OnInit {
     new Speaker('Pankaj Parkar', 'Synerzip','','','pankajparkar.jpg' ),
     new Speaker('Anchal Bhandari', 'PTC','','','anchal.jpg' ),
     new Speaker('Santosh Yadav', 'Deutsch','','','santoshyadav.jpg' ),
-    new Speaker('TBD', 'TBD','','','speaker-default.jpg' ),
+    new Speaker('Srashti Jain', 'Hvantage Technologies','srashtisj','','srashti.jpg' ),
     new Speaker('TBD', 'TBD','','','speaker-default.jpg' ),
     new Speaker('TBD', 'TBD','','','speaker-default.jpg' ),
     new Speaker('TBD', 'TBD','','','speaker-default.jpg' ),
