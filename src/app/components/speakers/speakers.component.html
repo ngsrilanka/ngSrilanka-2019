@@ -13,7 +13,12 @@
                 <div class="col-sm-3 shrink-div" *ngFor="let speaker of speakers">
                     <div class="item shrink"> 
                         <div class="event-speaker">
-                          <figure> <img src="../../assets/images/speakers/{{speaker.imagePath}}" alt="event-speaker" data-no-retina>
+                          <figure>
+                              <picture>
+                                <source srcset="../../assets/images/speakers/{{speaker.imagePathWebp}}" type="image/webp">
+                                <img src="../../assets/images/speakers/{{speaker.imagePathJpg}}" alt="event-speaker" data-no-retina>
+                              </picture>
+                            <!-- <img src="../../assets/images/speakers/{{speaker.imagePath}}" alt="event-speaker" data-no-retina> -->
                             <figcaption>
                               <h4>{{ speaker.name }}</h4>
                               <p>{{ speaker.company}}</p>
