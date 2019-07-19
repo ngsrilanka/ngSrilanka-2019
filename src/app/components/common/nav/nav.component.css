@@ -1,7 +1,7 @@
 .buy-tickets {
   background: #f82249;
   padding: 10px 20px;
-  border: 2px solid #f82249; 
+  border: 2px solid #f82249;
   border-radius: 5px;
   transition: all ease-in-out 0.3s;
   line-height: 1;
@@ -21,26 +21,28 @@
 
 .nav-item a {
   color: #111111;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 .nav-item a:hover {
   color: #f82249;
-}  
-  
+}
+
 .buy-tickets:hover {
   background-color: #db1439;
-  border: 2px solid #db1439; 
+  border: 2px solid #db1439;
   text-decoration: none;
 }
-  
+
 .buy-tickets:hover a:before,
 .buy-tickets.menu-active a:before {
-    visibility: hidden;
-  }
+  visibility: hidden;
+}
 
 .bg-dark-blue {
-  background-color: #f7f7f7;
+  padding: 10px;
+  background-color: #f6f9ff;
   border-bottom: 4px solid #002569;
 }
