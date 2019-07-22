@@ -116,6 +116,11 @@ img {
   width: 100%;
 }
 
+.event-partners-wrapper{
+  width: 70%;
+  margin: 0 auto;
+}
+
 .row-content {
   width: 300px;
   margin: 0 auto;
