@@ -1,7 +1,11 @@
-.sponsor > .container > .row:first-of-type { margin-bottom: 3em; }
+.sponsor > .container > .row:first-of-type {
+  margin-bottom: 3em;
+}
 
 .action-btn-sponsor,
-.action-btn-pricing { margin-top: 3em; }
+.action-btn-pricing {
+  margin-top: 3em;
+}
 
 .sponsor figure {
   display: inline-block;
@@ -9,7 +13,7 @@
 }
 
 img {
-  width: 150px;
+  width: 200px;
 }
 
 .sponsor img:hover {
@@ -19,25 +23,30 @@ img {
 }
 
 .btn-primary {
-    background: #ee0933 !important;
-    border: #ee0933;
-    height: 45px;
+  background: #f50136 !important;
+  border: #f50136;
+  height: 45px;
+  font-family: "Open Sans", monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 3px solid #003aa5;
+  border-radius: 0;
 }
 
 .btn-primary:hover {
-    background: #f5103a !important;
-    border: #f51c44 ;
-    cursor: pointer;
+  background: #a1001e !important;
+  border: #a1001e;
+  cursor: pointer;
 }
 
 #sponsors {
-    height: auto;
-    padding: 60px 0;
-    position: relative;
+  height: auto;
+  padding: 60px 0;
+  position: relative;
 }
 
-.sponsor-title{
-  font-family: 'Hind', sans-serif;
+.sponsor-title {
+  font-family: "Hind", sans-serif;
   font-weight: 800;
   font-size: 50px;
   text-transform: uppercase;
@@ -47,6 +56,61 @@ img {
 .sponsor-title-sub {
   font-size: 25px;
   font-weight: 200;
+}
+
+.platinum-cont p {
+  color: #2c2c2c;
+  background-color: #c8d4e6;
+  font-family: "Open Sans", monospace;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.gold-cont p {
+  color: #2c2c2c;
+  background-color: #f0c844;
+  font-family: "Open Sans", monospace;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.silver-cont p {
+  color: #2c2c2c;
+  background-color: #c0c0c0;
+  font-family: "Open Sans", monospace;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.bronze-cont p {
+  color: #2c2c2c;
+  background-color: #d6812c;
+  font-family: "Open Sans", monospace;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.partnerships {
+  margin: 5% 0;
+}
+
+.partner-main-title {
+  font-family: "Open Sans", monospace;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.partner-titles {
+  font-family: "Open Sans", monospace;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #4b4b4b;
 }
 
 .card-row {
@@ -80,7 +144,7 @@ img {
   text-transform: uppercase;
 }
 
-.price_features { 
+.price_features {
   text-align: left;
   color: #838383;
   font-family: sans-serif;
@@ -113,17 +177,16 @@ img {
 .price_box .price_features ul li {
   padding: 7px;
   font-size: 14px;
-  font-weight: 100;;
+  font-weight: 100;
 }
 .price_box .price_footer {
   margin-top: 30px;
 }
 
-
 .price_box.active {
   background-color: #ffffff;
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
@@ -152,11 +215,11 @@ img {
 }
 
 .gold {
-  color: 		#D4AF37;
+  color: #d4af37;
 }
 
 .gold-bac {
-  background: 	#D4AF37;
+  background: #d4af37;
 }
 
 .platinum {
@@ -168,21 +231,21 @@ img {
 }
 
 .sponsor-sub-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 35px;
   font-weight: 800;
   text-transform: uppercase;
   color: #002569;
 }
 
-.sponsorship-sub-title{
+.sponsorship-sub-title {
   font-size: 25px;
   font-weight: 200;
   line-height: 1;
   text-transform: lowercase;
 }
 
-.sponsor-contact{
+.sponsor-contact {
   margin-top: 5em;
 }
 
@@ -191,15 +254,15 @@ img {
 }
 
 .sponsor-contact-detals {
-  padding-top: 10px;  
+  padding-top: 10px;
 }
 
-.sponsor-contact-detals h6{
-  font-family: 'Roboto', sans-serif;
+.sponsor-contact-detals h6 {
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #ee0933; 
+  color: #ee0933;
 }
 
 .cont-detail i {
@@ -211,11 +274,12 @@ img {
   height: auto;
   padding: 100px 0;
   position: relative;
+  background-color: #f8f8f8;
 }
 
-#location{
+#location {
   width: 100%;
-  height: 57px;;
+  height: 57px;
   position: absolute;
   bottom: 0;
 }

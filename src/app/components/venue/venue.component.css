@@ -3,110 +3,127 @@
 }
 
 .venue-bg {
-    background: url(../../../assets/images/venue-bg.jpg) center center no-repeat fixed;
-    background-size: cover;
-    position: relative;
-    color: #fff;
-  }
-  
-  .venue::before { background: rgba(0, 0, 0, 0.5); }
-  
-  .venue h2 {
-    font-size: 36px;
-    font-weight: 700;
-    margin-top: 0;
-    color: #fff;
-  }
-  
-  .venue address { margin-bottom: 3em; }
-  
-  .venue address p {
-    color: #ffffff;
-    font-weight: 500;
-    font-size: 1.3em;
-  }
-  
-  .address-icon {
-    font-size: 40px;
-  }
+  background: url(../../../assets/images/venue-bg.jpg) center center no-repeat
+    fixed;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
 
-  .venue address p:first-child { margin-bottom: 1px; }
-  
-  .venue address i {
-    padding-right: .3em;
-    font-size: 1.4em;
-  }
-  
-  .venue address a {
-    font-size: 18px;
-    text-decoration: none;
-    color: #cacaca;
-    transition: ease-in-out 0.1s;
-  }
+.venue::before {
+  background: rgba(0, 0, 0, 0.5);
+}
 
-  .venue address a:hover {
-    color: #f82249;
-  }
+.venue h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 0;
+  color: #fff;
+}
 
-  .event-details i {
-    color: #fc0230;
-  }
-   
-  #map-canvas {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    height: 30em;
-    border-radius: 4px;
-  }
-  
-  #map-canvas img { max-width: none; }
+.venue address {
+  margin-bottom: 3em;
+}
 
+.venue address p {
+  color: #ffffff;
+  font-size: 24px;
+}
 
-  #tickets {
-    width: 100%;
-    height: 57px;;
-    position: absolute;
-    bottom: 0;
-  }
-  
-  .overlay {
-    background-image: linear-gradient(-144deg, #002B54 0%, #8d0b93 51%, #6200ff 100%, #8605ff 100%);
-    opacity: 0.8;
-  }
+.venue address p:first-child {
+  margin-bottom: 1px;
+}
 
-  .event-details {
-    padding: 100px 0 80px 0;
-  }
+.venue address i {
+  padding-right: 0.3em;
+  font-size: 1.4em;
+}
 
-  .date-time {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    line-height: 1.2;
-    font-size: 2em;
-    padding: 20px;
-  }
+.venue address a {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #a3cbff;
+  transition: ease-in-out 0.1s;
+}
 
-  .date-text span {
-    font-size: 15px;
-    vertical-align: text-top;
-  }
+.venue address a:hover {
+  color: #2b2b2b;
+  cursor: pointer;
+}
 
-  .venue-gallery-container {
-    padding-right: 12px;
-  }
-  
-  .venue-gallery {
-    overflow: hidden;
-    border-right: 3px solid #fff;
-    border-bottom: 3px solid #fff;
-  }
-  
-  .venue-gallery img {
-    transition: all ease-in-out 0.4s;
-  }
-  
-  .venue-gallery:hover img {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
+#map-canvas {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 30em;
+  border-radius: 4px;
+}
+
+#map-canvas img {
+  max-width: none;
+}
+
+#tickets {
+  width: 100%;
+  height: 57px;
+  position: absolute;
+  bottom: 0;
+}
+
+.overlay {
+  background-image: linear-gradient(144deg, #6200ff, #f50136);
+  opacity: 0.95;
+}
+
+.event-details {
+  font-family: "Quicksand", monospace;
+  padding: 10px 0 80px 0;
+}
+
+.event-details-icon {
+  padding: 100px 0 0 0;
+}
+
+.event-details-icon i {
+  color: #f1f1f1;
+  font-size: 50px;
+}
+
+.date-time {
+  line-height: 1.2;
+  font-size: 2em;
+  padding: 20px;
+}
+
+.date-text span {
+  font-size: 15px;
+  vertical-align: text-top;
+}
+
+.modal-content {
+  background: #e5ebff;
+  border-radius: 0;
+}
+
+.modal-title {
+  color: #002569;
+  font-size: 40px;
+  font-family: "Open Sans", monospace;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.venue-gallery {
+  overflow: hidden;
+  margin: 5px;
+}
+
+.venue-gallery img {
+  transition: all ease-in-out 0.4s;
+}
+
+.venue-gallery:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
