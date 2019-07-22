@@ -20,6 +20,7 @@ import { RouterModule, Routes } from "@angular/router";
 
 const routes: Routes = [
   { path: "landing", component: LandingPageComponent },
+  { path: "speakers", component: SpeakersComponent },
   { path: "", redirectTo: "landing", pathMatch: "full" }
 ];
 

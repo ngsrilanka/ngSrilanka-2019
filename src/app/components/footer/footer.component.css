@@ -41,9 +41,19 @@ footer .social-media-row {
   margin: 5% 0;
 }
 
+footer .social-media-row .event-txt {
+  padding: 8% 0;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  color: #002569;
+}
+
 footer .email-contact .email {
   color: #f50136;
+  font-family: "Hind", monospace;
   font-weight: 700;
+  font-size: 35px;
 }
 
 .copyright_footer {
