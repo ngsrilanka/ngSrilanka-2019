@@ -5,27 +5,36 @@
         <a class="navbar-brand" href="#"><img class="navbar-brand"  height="30" src="./../../../../assets/images/logo.png"/></a>
       </li> -->
       <li class="nav-item">
-        <a class="nav-link" href="landing#home">Home</a>
+        <a class="nav-link" (click)="navigateTo('landing', 'home')">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="landing#about-event">About</a>
+        <a class="nav-link" (click)="navigateTo('landing', 'about')">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/speakers">Speakers</a>
+        <a
+          class="nav-link"
+          [routerLink]="['/speakers']"
+          routerLinkActive="active"
+          >Speakers</a
+        >
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="landing#sponsors">Sponsors</a>
+        <a class="nav-link" (click)="navigateTo('landing', 'sponsors')"
+          >Sponsors</a
+        >
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="landing#venue">Venue</a>
+        <a class="nav-link" (click)="navigateTo('landing', 'venue')">Venue</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="landing#contact">Contact</a>
+        <a class="nav-link" (click)="navigateTo('landing', 'footer-section')"
+          >Contact</a
+        >
       </li>
     </ul>
     <ul class="navbar-nav">
       <li class="buy-tickets">
-        <a href="landing#tickets">RSVP</a>
+        <a (click)="navigateTo('landing', 'buy-tickets')">RSVP</a>
       </li>
     </ul>
   </div>
