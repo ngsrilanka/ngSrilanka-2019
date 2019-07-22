@@ -1,20 +1,13 @@
 .social-links a {
-    font-size: 18px;
-    display: inline-block;
-    background: #e2e2e2;
-    color: rgb(32, 32, 32);
-    line-height: 1;
-    padding: 8px 0;
-    margin-right: 4px;
-    border-radius: 50%;
-    text-align: center;
-    width: 36px;
-    height: 36px;
-    transition: 0.1s;
-  }
+  margin: auto;
+  display: block;
+  font-size: 4em;
+  color: rgb(32, 32, 32);
+  text-align: center;
+  transition: 0.1s;
+}
 
-
-  .social-links a:hover {
-    background: #f82249;
-    color: #fff;
-  }
+.social-links a:hover {
+  background: #f82249;
+  color: #fff;
+}
