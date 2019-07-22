@@ -1,38 +1,43 @@
 .buy-tickets {
   background: #f82249;
   padding: 10px 20px;
-  border: 2px solid #f82249;
-  border-radius: 5px;
-  transition: all ease-in-out 0.3s;
+  border-bottom: 3px solid #003aa5;
   line-height: 1;
+  border-radius: 0;
 }
 
 .buy-tickets a {
   color: #f7f7f7;
   transition: all ease-in-out 0.3s;
+  font-family: "Open Sans", monospace;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 700;
   text-decoration: none;
 }
 
 .nav-item {
-  padding: 0 4%;
+  padding: 0 2%;
 }
 
 .nav-item a {
   color: #111111;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
 }
 
 .nav-item a:hover {
   color: #f82249;
+  cursor: pointer;
+}
+
+.nav-item .active {
+  color: #111111;
 }
 
 .buy-tickets:hover {
   background-color: #db1439;
-  border: 2px solid #db1439;
+  border-bottom: 3px solid #db1439;
   text-decoration: none;
 }
 

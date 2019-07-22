@@ -29,6 +29,8 @@ img {
   font-family: "Open Sans", monospace;
   font-weight: 700;
   text-transform: uppercase;
+  border-bottom: 3px solid #003aa5;
+  border-radius: 0;
 }
 
 .btn-primary:hover {
@@ -54,6 +56,61 @@ img {
 .sponsor-title-sub {
   font-size: 25px;
   font-weight: 200;
+}
+
+.platinum-cont p {
+  color: #2c2c2c;
+  background-color: #c8d4e6;
+  font-family: "Open Sans", monospace;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.gold-cont p {
+  color: #2c2c2c;
+  background-color: #f0c844;
+  font-family: "Open Sans", monospace;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.silver-cont p {
+  color: #2c2c2c;
+  background-color: #c0c0c0;
+  font-family: "Open Sans", monospace;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.bronze-cont p {
+  color: #2c2c2c;
+  background-color: #d6812c;
+  font-family: "Open Sans", monospace;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.partnerships {
+  margin: 5% 0;
+}
+
+.partner-main-title {
+  font-family: "Open Sans", monospace;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.partner-titles {
+  font-family: "Open Sans", monospace;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #4b4b4b;
 }
 
 .card-row {
@@ -217,6 +274,7 @@ img {
   height: auto;
   padding: 100px 0;
   position: relative;
+  background-color: #f8f8f8;
 }
 
 #location {

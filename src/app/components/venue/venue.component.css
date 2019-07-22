@@ -103,11 +103,12 @@
 
 .modal-content {
   background: #e5ebff;
+  border-radius: 0;
 }
 
 .modal-title {
   color: #002569;
-  font-size: 50px;
+  font-size: 40px;
   font-family: "Open Sans", monospace;
   font-weight: 800;
   text-transform: uppercase;

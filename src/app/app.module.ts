@@ -1,5 +1,5 @@
 import { BrowserModule } from "@angular/platform-browser";
-import { NgModule } from "@angular/core";
+import { NgModule, Component } from "@angular/core";
 import { HttpClientModule } from "@angular/common/http";
 import { AppComponent } from "./app.component";
 import { ComingSoonPageComponent } from "./components/coming-soon-page/coming-soon-page.component";
@@ -20,6 +20,7 @@ import { RouterModule, Routes } from "@angular/router";
 
 const routes: Routes = [
   { path: "landing", component: LandingPageComponent },
+  { path: "speakers", component: SpeakersComponent },
   { path: "", redirectTo: "landing", pathMatch: "full" }
 ];
 

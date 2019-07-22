@@ -39,12 +39,11 @@
 
 .icon_box_one {
   background-color: #ffffff;
-  padding: 25px 0;
+  padding: 40px 0;
   margin: 25px 0;
   position: relative;
   overflow: hidden;
   border-bottom: 3px solid #003aa5;
-  border-radius: 3px;
   -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.08);
   box-shadow: 2px 7px 10px 10px rgba(0, 0, 0, 0.06);
   -webkit-transition: all 0.4s ease-in-out;
@@ -121,6 +120,27 @@
   color: #ffffff;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+}
+
+.speaker-btn {
+  margin: 5% 0 0 0;
+}
+
+.btn-primary {
+  background: #f50136 !important;
+  border: #f50136;
+  height: 45px;
+  font-family: "Open Sans", monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 3px solid #003aa5;
+  border-radius: 0;
+}
+
+.btn-primary:hover {
+  background: #a1001e !important;
+  border: #a1001e;
+  cursor: pointer;
 }
 
 #about {
