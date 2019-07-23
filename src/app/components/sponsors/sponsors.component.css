@@ -43,6 +43,7 @@ img {
   height: auto;
   padding: 60px 0;
   position: relative;
+  background-color: #f8f8f8;
 }
 
 .sponsor-title {
@@ -116,7 +117,7 @@ img {
   width: 100%;
 }
 
-.event-partners-wrapper{
+.event-partners-wrapper {
   width: 70%;
   margin: 0 auto;
 }
@@ -281,13 +282,6 @@ img {
 .cont-detail i {
   color: #ee0933;
   font-size: 40px;
-}
-
-#sponsors {
-  height: auto;
-  padding: 100px 0;
-  position: relative;
-  background-color: #f8f8f8;
 }
 
 #location {
