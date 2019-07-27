@@ -12,7 +12,20 @@
   padding: 1em 2.5em 2.5em;
 }
 
-img {
+.platinum-icons img {
+  width: 300px;
+}
+
+.gold-icons img {
+  width: 280px;
+}
+
+.silver-icons img,
+.bronze-icons img {
+  width: 240px;
+}
+
+.partnerships img {
   width: 125px;
 }
 
@@ -65,7 +78,9 @@ img {
   font-family: "Open Sans", monospace;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 28px;
+  padding: 5px 10px;
+  margin: 0 40%;
 }
 
 .gold-cont p {
@@ -74,7 +89,9 @@ img {
   font-family: "Open Sans", monospace;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 28px;
+  padding: 5px 10px;
+  margin: 0 40%;
 }
 
 .silver-cont p {
@@ -83,7 +100,9 @@ img {
   font-family: "Open Sans", monospace;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 28px;
+  padding: 5px 10px;
+  margin: 0 40%;
 }
 
 .bronze-cont p {
@@ -92,7 +111,9 @@ img {
   font-family: "Open Sans", monospace;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 28px;
+  padding: 5px 10px;
+  margin: 0 40%;
 }
 
 .partnerships {
@@ -289,4 +310,22 @@ img {
   height: 57px;
   position: absolute;
   bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .platinum-cont p {
+    margin: 0 10%;
+  }
+
+  .gold-cont p {
+    margin: 0 10%;
+  }
+
+  .silver-cont p {
+    margin: 0 10%;
+  }
+
+  .bronze-cont p {
+    margin: 0 10%;
+  }
 }
