@@ -19,9 +19,9 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { RouterModule, Routes } from "@angular/router";
 
 const routes: Routes = [
-  { path: "landing", component: LandingPageComponent },
+  { path: "", component: LandingPageComponent },
   { path: "speakers", component: SpeakersComponent },
-  { path: "", redirectTo: "landing", pathMatch: "full" }
+  { path: "", redirectTo: "", pathMatch: "full" }
 ];
 
 @NgModule({
