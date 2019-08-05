@@ -29,10 +29,14 @@
   width: 125px;
 }
 
+.sponsor img {
+  -webkit-transition: all 700ms ease;
+  transition: all 700ms ease;
+}
+
 .sponsor img:hover {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  transition: all 0.3s ease-in-out;
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .btn-primary {
