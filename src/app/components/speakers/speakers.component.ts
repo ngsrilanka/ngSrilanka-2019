@@ -64,7 +64,7 @@ export class SpeakersComponent implements OnInit {
       ""
     ),
     new Speaker(
-      "Siddharth Amjira",
+      "Siddharth Ajmera",
       "Tata Consultancy Services Ltd",
       "SiddAjmera",
       "SiddAjmera",
