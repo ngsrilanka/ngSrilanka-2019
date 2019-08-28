@@ -17,6 +17,8 @@ import { HomeComponent } from "./components/home/home.component";
 import { NavComponent } from "./components/common/nav/nav.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { RouterModule, Routes } from "@angular/router";
+import { AgendaComponent } from './components/agenda/agenda.component';
+
 
 const routes: Routes = [
   { path: "", component: LandingPageComponent },
@@ -38,7 +40,8 @@ const routes: Routes = [
     FooterComponent,
     TicketsComponent,
     HomeComponent,
-    NavComponent
+    NavComponent,
+    AgendaComponent,
   ],
   imports: [
     BrowserModule,
