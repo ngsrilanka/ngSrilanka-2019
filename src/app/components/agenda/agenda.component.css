@@ -1,0 +1,114 @@
+#agenda {
+    min-height: 100vh;
+}
+
+.sub-txt-title {
+    font-weight: 400;
+}
+  
+.txt-title {
+    font-family: "Hind", sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #002569;
+}
+
+.txt-title-sub {
+    font-size: 25px;
+    font-weight: 200;
+}
+
+#agenda {
+    padding: 60px 0 60px 0;
+  }
+  
+  #agenda .nav-tabs {
+    text-align: center;
+    margin: auto;
+    display: block;
+    border-bottom: 0;
+    margin-bottom: 30px;
+  }
+  
+  #agenda .nav-tabs li {
+    display: inline-block;
+    margin: 10px 5px;
+  }
+  
+  #agenda .nav-tabs a {
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+    background-color: #0e1b4d;
+    color: #fff;
+    padding: 10px 100px;
+  }
+  
+  #agenda .nav-tabs a.active {
+    background-color: #f82249;
+    color: #fff;
+  }
+  
+  #agenda .sub-heading {
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    margin: 0 auto 30px auto;
+  }
+  
+  #agenda .tab-pane {
+    transition: ease-in-out .2s;
+  }
+  
+  #agenda .agenda-item {
+    border-bottom: 1px solid #cad4f6;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: background-color ease-in-out 0.3s;
+  }
+  
+  #agenda .agenda-item:hover {
+    background-color: #fff;
+  }
+  
+  #agenda .agenda-item time {
+    padding-bottom: 5px;
+    display: inline-block;
+  }
+  
+  #agenda .agenda-item .speaker {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left;
+    margin: 0 10px 10px 0;
+  }
+  
+  #agenda .agenda-item .speaker img {
+    height: 100%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    margin-left: 50%;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  #agenda .agenda-item h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  #agenda .agenda-item h4 span {
+    font-style: italic;
+    color: #19328e;
+    font-weight: normal;
+    font-size: 16px;
+  }
+  
+  #agenda .agenda-item p {
+    font-style: italic;
+    color: #152b79;
+    margin-bottom: 0;
+  }
