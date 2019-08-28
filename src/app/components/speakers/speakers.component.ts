@@ -38,12 +38,12 @@ export class SpeakersComponent implements OnInit {
     ),
     new Speaker(
       "Santosh Yadav",
-      "Deutsch",
+      "Deutsche Bank",
       "Santosh19742211",
       "santoshyadav198613",
       "santoshyadav.jpg",
       "santoshyadav.webp",
-      "Santosh has more than 10 years of experience in IT, he is working with Deutsch Bank as Full Stack Developer. He is also an active open source contributor and has contributed to NgRx and Angular and many other open source projects. He is also the organizer of Pune Tech Meetup and MEAN stack trainer"
+      "Santosh has more than 10 years of experience in IT, he is working with Deutsche Bank as Full Stack Developer. He is also an active open source contributor and has contributed to NgRx and Angular and many other open source projects. He is also the organizer of Pune Tech Meetup and MEAN stack trainer"
     ),
     new Speaker(
       "Srashti Jain",
