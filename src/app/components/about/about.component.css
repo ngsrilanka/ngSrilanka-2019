@@ -143,6 +143,11 @@
   cursor: pointer;
 }
 
+.event-speaker img {
+  max-width: 100%;
+  height: auto;
+}
+
 #about {
   position: relative;
 }

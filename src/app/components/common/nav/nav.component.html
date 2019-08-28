@@ -5,36 +5,31 @@
         <a class="navbar-brand" href="#"><img class="navbar-brand"  height="30" src="./../../../../assets/images/logo.png"/></a>
       </li> -->
       <li class="nav-item">
-        <a class="nav-link" (click)="navigateTo('landing', 'home')">Home</a>
+        <a class="nav-link" (click)="navigateTo('/', 'home')">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" (click)="navigateTo('landing', 'about')">About</a>
+        <a class="nav-link" (click)="navigateTo('/', 'about')">About</a>
       </li>
       <li class="nav-item">
-        <a
-          class="nav-link"
-          [routerLink]="['/speakers']"
-          routerLinkActive="active"
+        <a class="nav-link" (click)="navigateTo('speakers', 'speakers')"
           >Speakers</a
         >
       </li>
       <li class="nav-item">
-        <a class="nav-link" (click)="navigateTo('landing', 'sponsors')"
-          >Sponsors</a
-        >
+        <a class="nav-link" (click)="navigateTo('/', 'sponsors')">Sponsors</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" (click)="navigateTo('landing', 'venue')">Venue</a>
+        <a class="nav-link" (click)="navigateTo('/', 'venue')">Venue</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" (click)="navigateTo('landing', 'footer-section')"
+        <a class="nav-link" (click)="navigateTo('/', 'footer-section')"
           >Contact</a
         >
       </li>
     </ul>
     <ul class="navbar-nav">
       <li class="buy-tickets">
-        <a (click)="navigateTo('landing', 'buy-tickets')">RSVP</a>
+        <a href="http://rsvp.lk/ng-sri-lanka/ng-sl-2019" target="blank">RSVP</a>
       </li>
     </ul>
   </div>

@@ -74,15 +74,15 @@
 .overlay {
   background-image: linear-gradient(144deg, #6200ff, #f50136);
   opacity: 0.95;
+  padding: 100px 0 80px 0;
 }
 
 .event-details {
   font-family: "Quicksand", monospace;
-  padding: 10px 0 80px 0;
 }
 
-.event-details-icon {
-  padding: 100px 0 0 0;
+.res-icons {
+  display: none;
 }
 
 .event-details-icon i {
@@ -93,7 +93,7 @@
 .date-time {
   line-height: 1.2;
   font-size: 2em;
-  padding: 20px;
+  padding: 20px 0 0 0;
 }
 
 .date-text span {
@@ -126,4 +126,15 @@
 .venue-gallery:hover img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+@media (max-width: 767px) {
+  .res-icons {
+    display: block;
+    font-size: 30px;
+  }
+
+  .event-details-icon {
+    display: none;
+  }
 }

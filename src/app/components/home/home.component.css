@@ -16,16 +16,17 @@
   width: 15%;
   margin: auto;
   display: block;
+  align-content: center;
 }
 
 #main-text {
   margin: auto;
-  font-family: "Open Sans", sans-serif;
-  font-size: 3em;
+  font-size: 35px;
   font-weight: 900;
   line-height: 1.2;
   text-transform: uppercase;
-  color: rgb(24, 0, 68);
+  color: rgb(48, 0, 138);
+  padding: 40px 65px;
 }
 
 .container {
@@ -70,8 +71,12 @@
 }
 
 @media only screen and (max-device-width: 780px) {
-  .container h1 {
-    font-size: 30px;
+  #main-logo {
+    width: 45%;
+  }
+
+  #main-text {
+    padding: 40px 0;
   }
 }
 

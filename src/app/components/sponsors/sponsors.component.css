@@ -12,14 +12,31 @@
   padding: 1em 2.5em 2.5em;
 }
 
-img {
+.platinum-icons img {
+  width: 300px;
+}
+
+.gold-icons img {
+  width: 280px;
+}
+
+.silver-icons img,
+.bronze-icons img {
+  width: 240px;
+}
+
+.partnerships img {
   width: 125px;
 }
 
+.sponsor img {
+  -webkit-transition: all 700ms ease;
+  transition: all 700ms ease;
+}
+
 .sponsor img:hover {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  transition: all 0.3s ease-in-out;
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .btn-primary {
@@ -43,6 +60,7 @@ img {
   height: auto;
   padding: 60px 0;
   position: relative;
+  background-color: #f8f8f8;
 }
 
 .sponsor-title {
@@ -64,7 +82,9 @@ img {
   font-family: "Open Sans", monospace;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 28px;
+  padding: 5px 10px;
+  margin: 0 40%;
 }
 
 .gold-cont p {
@@ -73,7 +93,9 @@ img {
   font-family: "Open Sans", monospace;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 28px;
+  padding: 5px 10px;
+  margin: 0 40%;
 }
 
 .silver-cont p {
@@ -82,7 +104,9 @@ img {
   font-family: "Open Sans", monospace;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 28px;
+  padding: 5px 10px;
+  margin: 0 40%;
 }
 
 .bronze-cont p {
@@ -91,7 +115,9 @@ img {
   font-family: "Open Sans", monospace;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 28px;
+  padding: 5px 10px;
+  margin: 0 40%;
 }
 
 .partnerships {
@@ -116,7 +142,7 @@ img {
   width: 100%;
 }
 
-.event-partners-wrapper{
+.event-partners-wrapper {
   width: 70%;
   margin: 0 auto;
 }
@@ -283,16 +309,27 @@ img {
   font-size: 40px;
 }
 
-#sponsors {
-  height: auto;
-  padding: 100px 0;
-  position: relative;
-  background-color: #f8f8f8;
-}
-
 #location {
   width: 100%;
   height: 57px;
   position: absolute;
   bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .platinum-cont p {
+    margin: 0 10%;
+  }
+
+  .gold-cont p {
+    margin: 0 10%;
+  }
+
+  .silver-cont p {
+    margin: 0 10%;
+  }
+
+  .bronze-cont p {
+    margin: 0 10%;
+  }
 }

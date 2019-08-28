@@ -32,9 +32,13 @@ export class SponsorsComponent implements OnInit {
 
   showPackages() {
     this.showpackages = true;
+    let element = document.getElementById("sponsors");
+    element.scrollIntoView();
   }
 
   hidePackages() {
     this.showpackages = false;
+    let element = document.getElementById("sponsors");
+    element.scrollIntoView();
   }
 }

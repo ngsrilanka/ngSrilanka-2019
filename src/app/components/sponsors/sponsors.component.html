@@ -1,9 +1,5 @@
-<section
-  class="sponsor section-spacing text-center"
-  id="sponsors"
-  *ngIf="!showpackages"
->
-  <div class="container">
+<section class="sponsor section-spacing text-center" id="sponsors">
+  <div class="container" *ngIf="!showpackages">
     <div class="row">
       <div class="col-md-12">
         <p class="sponsor-title">Sponsors</p>
@@ -15,19 +11,45 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row platinum-icons">
       <div class="col-md-12 platinum-cont">
         <p class="platinum-title">Platinum</p>
       </div>
+      <div class="row">
+        <div class="col-md-4">
+          <figure>
+            <img
+              src="../../../assets/images/sponsors/google.png"
+              alt="google"
+            />
+          </figure>
+        </div>
+        <div class="col-md-4">
+          <figure>
+            <img
+              src="../../../assets/images/sponsors/microsoft.png"
+              alt="cambio"
+            />
+          </figure>
+        </div>
+        <div class="col-md-4">
+          <figure>
+            <img
+              src="../../../assets/images/sponsors/cambio.png"
+              alt="cambio"
+            />
+          </figure>
+        </div>
+      </div>
     </div>
-
-    <div class="row">
+    <hr />
+    <div class="row gold-icons">
       <div class="col-md-12 gold-cont">
         <p class="gold-title">Gold</p>
       </div>
     </div>
-
-    <div class="row">
+    <hr />
+    <div class="row silver-icons">
       <div class="col-md-12 silver-cont">
         <p class="silver-title">Silver</p>
       </div>
@@ -40,10 +62,18 @@
         </figure>
       </div>
     </div>
-
-    <div class="row">
+    <hr />
+    <div class="row bronze-icons">
       <div class="col-md-12 bronze-cont">
         <p class="bronze-title">Bronze</p>
+      </div>
+      <div class="col-md-12">
+        <figure>
+          <img
+            src="../../../assets/images/sponsors/zone24x7.png"
+            alt="platformer"
+          />
+        </figure>
       </div>
     </div>
 
@@ -79,7 +109,7 @@
         <p class="partner-titles">Event Partners</p>
       </div>
       <div class="event-partners-wrapper">
-            <div class="col-md">
+        <div class="col-md">
           <figure>
             <img
               src="../../../assets/images/sponsors/jetbrains.png"
@@ -87,7 +117,7 @@
             />
           </figure>
         </div>
-        <div  class="col-md">
+        <div class="col-md">
           <figure>
             <img
               src="../../../assets/images/sponsors/thinkster.png"
@@ -96,7 +126,6 @@
           </figure>
         </div>
       </div>
-
     </div>
     <div class="row btm-margin">
       <div class="col-sm-12">
@@ -110,7 +139,7 @@
 </section>
 
 <section id="sponsors" *ngIf="showpackages" [@fadeInOut]>
-  <div class="container">
+  <div class="container sponsor-packages">
     <header>
       <p class="sponsor-title">Sponsorship Packages</p>
       <hr />
