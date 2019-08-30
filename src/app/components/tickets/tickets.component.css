@@ -1,59 +1,36 @@
-  .mb30 {
-    margin-bottom: 30px !important;
-  }
-  .btn-rounded {
-    border-radius: 50px;
-  }
-  .mt30 {
-    margin-top: 30px !important;
-  }
-  
-  section {
-      height: 60vh;
-  }
+iframe {
+  margin: 0 10px;
+}
 
-  #buy-tickets{
-   padding-top: 60px;
-   position: relative;
+.txt-title-sub {
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.more-btn {
+  margin: 5% 0 0 0;
 }
 
 .btn-primary {
-    background: #ee0933 !important;
-    border: #ee0933;
+  background: #f50136 !important;
+  border: #f50136;
+  height: 45px;
+  font-family: "Open Sans", monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 3px solid #003aa5;
+  border-radius: 0;
+  margin: 0 10px;
 }
 
 .btn-primary:hover {
-    background: #f5103a !important;
-    border: #f51c44 ;
-    cursor: pointer;
+  background: #a1001e !important;
+  border: #a1001e;
+  cursor: pointer;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  #tickets{
-      margin-top: 4em;
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #tickets {
+    margin-top: 4em;
   }
-}
-
-#contact {
-  width: 100%;
-  height: 70px;
-  position: absolute;
-  bottom: 0;
-}
-
-.register-title {
-  font-family: 'Hind', sans-serif;
-  font-weight: 800;
-  font-size: 50px;
-  text-transform: uppercase;
-  color: #002569;
-  display: none;
-}
-
-.text-soon {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 2em;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #a7a7a7;
 }

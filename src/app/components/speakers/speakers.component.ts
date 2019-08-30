@@ -82,75 +82,12 @@ export class SpeakersComponent implements OnInit {
       ""
     ),
     new Speaker(
-      "TBD",
-      "TBD",
+      "Nilesh Jayanandana",
+      "Platformer Cloud",
       "",
       "",
-      "speaker-default.jpg",
-      "speaker-default.webp",
-      ""
-    ),
-    new Speaker(
-      "TBD",
-      "TBD",
-      "",
-      "",
-      "speaker-default.jpg",
-      "speaker-default.webp",
-      ""
-    ),
-    new Speaker(
-      "TBD",
-      "TBD",
-      "",
-      "",
-      "speaker-default.jpg",
-      "speaker-default.webp",
-      ""
-    ),
-    new Speaker(
-      "TBD",
-      "TBD",
-      "",
-      "",
-      "speaker-default.jpg",
-      "speaker-default.webp",
-      ""
-    ),
-    new Speaker(
-      "TBD",
-      "TBD",
-      "",
-      "",
-      "speaker-default.jpg",
-      "speaker-default.webp",
-      ""
-    ),
-    new Speaker(
-      "TBD",
-      "TBD",
-      "",
-      "",
-      "speaker-default.jpg",
-      "speaker-default.webp",
-      ""
-    ),
-    new Speaker(
-      "TBD",
-      "TBD",
-      "",
-      "",
-      "speaker-default.jpg",
-      "speaker-default.webp",
-      ""
-    ),
-    new Speaker(
-      "TBD",
-      "TBD",
-      "",
-      "",
-      "speaker-default.jpg",
-      "speaker-default.webp",
+      "nilesh.jpeg",
+      "nilesh.webp",
       ""
     )
   ];
