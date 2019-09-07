@@ -20,9 +20,16 @@
   width: 280px;
 }
 
-.silver-icons img,
+.silver-icons img {
+  width: 260px;
+}
+
+.supp-icons img {
+  width: 230px;
+}
+
 .bronze-icons img {
-  width: 240px;
+  width: 260px;
 }
 
 .partnerships img {
@@ -87,6 +94,17 @@
   margin: 0 40%;
 }
 
+.paid-cont p {
+  color: #f3f3f3;
+  background-color: #db0000;
+  font-family: "Open Sans", monospace;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 28px;
+  padding: 5px 10px;
+  margin: 0 35%;
+}
+
 .gold-cont p {
   color: #2c2c2c;
   background-color: #f0c844;
@@ -107,6 +125,17 @@
   font-size: 28px;
   padding: 5px 10px;
   margin: 0 40%;
+}
+
+.supp-cont p {
+  color: #f3f3f3;
+  background-color: #00ade2;
+  font-family: "Open Sans", monospace;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 28px;
+  padding: 5px 10px;
+  margin: 0 34%;
 }
 
 .bronze-cont p {
@@ -317,7 +346,9 @@
 }
 
 @media (max-width: 767px) {
-  .platinum-cont p {
+  .platinum-cont p,
+  .supp-cont p,
+  .paid-cont p {
     margin: 0 10%;
   }
 

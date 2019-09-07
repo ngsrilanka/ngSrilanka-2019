@@ -1,26 +1,44 @@
-<section id="buy-tickets">
+<section id="videos-cont">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
-        <p class="register-title">Register Now</p>
+      <div class="col-md-6">
+        <iframe
+          width="420"
+          height="236.25"
+          src="https://www.youtube.com/embed/Xbb_BMtc4Y4"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="col-md-6">
+        <iframe
+          width="420"
+          height="236.25"
+          src="https://www.youtube.com/embed/WrKuia5_BUE"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </div>
     </div>
 
-      <div class="row justify-content-center align-items-center">
-          <!-- <div class="col-md-9 text-md-left text-center color-light">
-             Get your tickets now
-          </div> -->
-          <!-- <div class="col-sm-12">
-            <p>Register now to reserve your spot.</p>
-          </div> -->
-          <!-- <div class="col-md-3 text-md-right text-center">
-              <a href="#" class="btn btn-primary btn-rounded mt30">Register</a>
-          </div> -->
-          <div class="col-sm-12">
-              <!-- <a href="#" class="btn btn-primary btn-rounded mt30">Register</a> -->
-              <p class="text-soon">Registrations will be opening soon</p>
-          </div>
+    <div class="row">
+      <div class="col-md-12 more-btn">
+        <a
+          class="btn btn-primary"
+          href="https://youtu.be/WrKuia5_BUE"
+          target="blank"
+        >
+          View More &nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </a>
+        <a class="btn btn-primary" [routerLink]="['/speakers']">
+          View Speakers &nbsp;<i
+            class="fa fa-arrow-right"
+            aria-hidden="true"
+          ></i>
+        </a>
       </div>
+    </div>
   </div>
-  <div id="contact"></div>
 </section>
