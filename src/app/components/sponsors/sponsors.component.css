@@ -345,6 +345,10 @@
   bottom: 0;
 }
 
+.lesg-gold {
+  background: black;
+}
+
 @media (max-width: 767px) {
   .platinum-cont p,
   .supp-cont p,
