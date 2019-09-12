@@ -29,7 +29,7 @@
 }
 
 .bronze-icons img {
-  width: 260px;
+  width: 200px;
 }
 
 .partnerships img {
@@ -83,6 +83,17 @@
   font-weight: 200;
 }
 
+.title-cont p {
+  color: #f0f0f0;
+  background: linear-gradient(to right, #951e5d 0%, #ff0000 100%);
+  font-family: "Open Sans", monospace;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 34px;
+  padding: 5px 10px;
+  margin: 0 35%;
+}
+
 .platinum-cont p {
   color: #2c2c2c;
   background-color: #c8d4e6;
@@ -114,6 +125,17 @@
   font-size: 28px;
   padding: 5px 10px;
   margin: 0 40%;
+}
+
+.venue-cont p {
+  color: #ebebeb;
+  background-color: #159903;
+  font-family: "Open Sans", monospace;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 28px;
+  padding: 5px 10px;
+  margin: 0 35%;
 }
 
 .silver-cont p {
@@ -155,15 +177,20 @@
 
 .partner-main-title {
   font-family: "Open Sans", monospace;
+  color: #f5f5f5;
+  background-color: #202020;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 28px;
+  padding: 5px 10px;
+  margin: 0 35%;
 }
 
 .partner-titles {
   font-family: "Open Sans", monospace;
   text-transform: uppercase;
-  font-size: 15px;
+  font-weight: 900;
+  font-size: 18px;
   color: #4b4b4b;
 }
 

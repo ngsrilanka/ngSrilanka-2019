@@ -89,6 +89,24 @@ export class SpeakersComponent implements OnInit {
       "nilesh.jpeg",
       "nilesh.webp",
       ""
+    ),
+    new Speaker(
+      "Samudra Kanankearachchi",
+      "99X Technology",
+      "",
+      "",
+      "samudra.png",
+      "samudra.webp",
+      ""
+    ),
+    new Speaker(
+      "Sohan Dassanayake",
+      "Platformer Cloud",
+      "",
+      "",
+      "sohan.jpg",
+      "sohan.webp",
+      ""
     )
   ];
   constructor() {}
