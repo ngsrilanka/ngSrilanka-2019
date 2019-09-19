@@ -101,7 +101,7 @@ export class SpeakersComponent implements OnInit {
     ),
     new Speaker(
       "Sohan Dassanayake",
-      "Platformer Cloud",
+      "Zone 24x7",
       "",
       "",
       "sohan.jpg",
